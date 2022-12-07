@@ -21,10 +21,10 @@ for y in range(0, np.shape(zdjecie)[0]):
 
 while True:
     
-    cv.imshow('Oryginal', zdjecie)
+    #cv.imshow('Oryginal', zdjecie)
     
-    cv.imshow('x', wynik_x)
-    cv.imshow('y', wynik_y)            
+    #cv.imshow('x', wynik_x)
+    #cv.imshow('y', wynik_y)            
     
     cv.imshow('Wynik', wynik_modul)
     
